@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+   <table>
+       <tr>
+           <td colspan="4"><input type="text" id = "show" class = "textbox"></td>
+       </tr>
+       <tr>
+           <td><input type="button" class = numbers  onclick="display('1');" value = "1"></td>
+           <td><input type="button" class = numbers  onclick="display('2');" value = "2"></td>
+           <td><input type="button" class = numbers  onclick="display('3');" value = "3"></td>
+           <td><input type="button" class = numbers  onclick="display('+');" value = "+"></td>
+       </tr>
+       <tr>
+        <td><input type="button" class = numbers  onclick="display('4');" value = "4"></td>
+        <td><input type="button" class = numbers  onclick="display('5');" value = "5"></td>
+        <td><input type="button" class = numbers  onclick="display('6');" value = "6"></td>
+        <td><input type="button" class = numbers  onclick="display('-');" value = "-"></td>
+    </tr>
+    <tr>
+        <td><input type="button" class = numbers  onclick="display('7');" value = "7"></td>
+        <td><input type="button" class = numbers  onclick="display('8');" value = "8"></td>
+        <td><input type="button" class = numbers  onclick="display('9');" value = "9"></td>
+        <td><input type="button" class = numbers  onclick="display('*');" value = "*"></td>
+    </tr>
+    <tr>
+        <td><input type="button" class = numbers  onclick="solve();" value = "="></td>
+        <td><input type="button" class = numbers  onclick="display('0');" value = "0"></td>
+        <td><input type="button" class = numbers  onclick="display('/');" value = "/"></td>
+        <td><input type="button" class = "clrscr"  onclick="erase();" value = "C"></td>
+    </tr>
+   </table>
+</body>
+</html>

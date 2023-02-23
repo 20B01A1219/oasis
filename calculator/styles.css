@@ -1,0 +1,39 @@
+.textbox{
+    background-color: #4B0082;
+    color : white;
+    width: 410px;
+    height : 75px;
+    font-size: 20px;
+}
+.numbers{
+    height: 50px;
+    width : 100px;
+    background-color: #4B0082;
+    color :white;
+    border :rgb(126, 121, 121) solid 1px;
+    border-radius: 5px;
+}
+
+.clrscr{
+    height: 50px;
+    width : 100px;
+    background-color: #4B0082;
+    color :white;
+    border :rgb(126, 121, 121) solid 1px;
+    border-radius: 5px;
+}
+.numbers:hover{
+    background-color: white;
+    color: #4B0082;
+    font-size: 25px;
+}
+.clrscr:hover{
+    background-color: white;
+    color: #4B0082;
+    font-size: 25px;
+}
+table{
+    margin-top: 150px;
+    margin-left:550px;
+    background-color: #F0E68C;
+}
