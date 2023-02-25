@@ -1,0 +1,57 @@
+.first{
+    display: flex;
+}
+.main{
+    width: 80%;
+    margin-left : 125px;
+    border: solid black 1px;
+    background-color: black;
+    color : white;
+    border-radius: 15px;
+    padding : 15px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.elonimg1{
+    margin-top: 25px;
+    margin-left: 5px;
+    width: 450px;
+    height: 250px;
+}
+.name{
+    font-size: 35px;
+}
+.spacexmid{
+    display: flex;
+}
+.contentx{
+    padding: 15px;
+}
+.spacex{
+    font-size: 18px;
+}
+.tesla{
+    font-size: 18px;
+}
+.teslamid{
+    display: flex;
+}
+.teslamid img{
+    width : 520px;
+    height : 300px;
+}
+.midtwitter{
+    display: flex;
+}
+.twittercontent{
+    padding:15px;
+}
+.twitter{
+    font-size: 18px;
+}
+.twitterimg{
+    margin-top:45px;
+}
+body{
+    background-color: rgb(135, 133, 133);
+}
